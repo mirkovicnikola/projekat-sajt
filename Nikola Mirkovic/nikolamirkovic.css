@@ -40,3 +40,10 @@ body {
   margin-right: 20px;
   margin-bottom: 15px;
 }
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+header p::first-letter {
+  font-size: 40px;
+}
