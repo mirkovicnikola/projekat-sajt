@@ -47,3 +47,23 @@ p {
 header p::first-letter {
   font-size: 40px;
 }
+figure {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+figure img {
+  height: 25%;
+  width: 25%;
+  margin: 5px auto;
+  display: block;
+}
+figcaption {
+  text-align: center;
+}
+main {
+  padding: 10px 10px;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
