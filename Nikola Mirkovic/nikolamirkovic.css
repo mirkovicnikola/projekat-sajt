@@ -1,7 +1,8 @@
 ul li {
   list-style: none;
   float: left;
-  width: 25%;
+  width: 250px;
+  position: relative;
 }
 ul li a {
   text-decoration: none;
@@ -78,4 +79,12 @@ hr {
   height: 25%;
   display: inline-block;
   padding: 0px 100px;
+}
+ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #dad6d6;
+}
+ul li:hover ul {
+  display: block;
 }
